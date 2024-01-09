@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
+
 body {
     display: flex;
-}main {
+    font-family: 'DM Sans', sans-serif;
+}
+
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,7 +43,7 @@ header {
 
 .balance {
     margin: 0;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1.875rem;
 }
 
@@ -100,7 +105,7 @@ footer {
 }
 
 .amount {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1.875rem;
 }
 
@@ -112,7 +117,7 @@ footer {
 }
 
 .percentage {
-    font-weight: bold;
+    font-weight: 700;
     text-align: right;
     margin: 0;
 }
