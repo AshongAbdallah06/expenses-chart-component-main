@@ -1,0 +1,22 @@
+@media (max-width: 395px) {
+    header {
+        width: 200px;
+        padding: 10px 25px;
+    }
+
+    .container {
+        width: 200px;
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    .day {
+        margin-right: 0;
+    }
+
+    .day::before {
+        width: 25px;
+    }
+}
