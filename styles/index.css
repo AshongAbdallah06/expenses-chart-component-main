@@ -18,47 +18,47 @@ body {
 header {
     background-color: hsl(10, 79%, 65%);
     /* width: 27%; */
-    margin-bottom: 20px;
-    padding: 10px 25px;
+    margin-bottom: 1.25rem;
+    padding: 0.625rem 1.563rem;
     color: white;
-    border-radius: 15px;
+    border-radius: 0.938rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .balance-container {
-    width: 280px;
+    width: 17.5rem;
 }
 
 .balance-label {
-    font-size: 13px;
-    margin-bottom: 5px;
+    font-size: 0.813rem;
+    margin-bottom: 0.313rem;
 }
 
 .balance {
     margin: 0;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .logo {
-    height: 35px;
+    height: 2.188rem;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    border-radius: 15px;
+    border-radius: 0.938rem;
     background-color: white;
     /* width: 27%; */
-    padding: 25px; 
+    padding: 1.563rem; 
 }
 
 .heading {
     margin: 0;
-    font-size: 23px;
-    margin-bottom: 20px;
+    font-size: 1.438rem;
+    margin-bottom: 1.25rem;
 }
 
 .charts-container::after {
@@ -66,28 +66,28 @@ header {
     border-bottom: 1px solid rgb(219, 219, 219);
     width: 100%;
     display: block;
-    padding-bottom: 25px;
+    padding-bottom: 1.563rem;
 }
 
 .day {
     display: inline-block;
     text-align: center;
     color: gray;
-    font-size: 13px;
+    font-size: 0.813rem;
 }
 
 .day::before {
     content: '';
     background-color: hsl(10, 79%, 65%);
-    width: 40px;
+    width: 2.5rem;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 0.188rem;
     display: block;
     transition: background-color 0.15s;
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -95,19 +95,19 @@ footer {
 
 .total-label {
     color: gray;
-    font-size: 13px;
+    font-size: 0.813rem;
     margin: 0;
 }
 
 .amount {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .percent {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     /* background-color: red; */
 }
 
@@ -120,5 +120,5 @@ footer {
 .last-month {
     margin: 0;
     color: gray;
-    font-size: 13px;
+    font-size: 0.813rem;
 }

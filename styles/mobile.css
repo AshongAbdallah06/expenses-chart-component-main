@@ -1,15 +1,15 @@
 @media (max-width: 395px) {
     header {
-        width: 200px;
-        padding: 10px 25px;
+        width: 12.5rem;
+        padding: 0.625rem 1.563rem;
     }
 
     .container {
-        width: 200px;
+        width: 12.5rem;
     }
 
     .heading {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     .day {
@@ -17,15 +17,15 @@
     }
 
     .day::before {
-        width: 25px;
+        width: 1.563rem;
     }
 
     .amount-tooltip {
-        font-size: 9px;
-        top: -20px;
-        left: -4px;
-        padding: 3px;
-        border-radius: 3px;
+        font-size: 0.563rem;
+        top: -1.25rem;
+        left: -0.25rem;
+        padding: 0.188rem;
+        border-radius: 0.188rem;
     }
     
     

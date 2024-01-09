@@ -1,5 +1,5 @@
 .day {
-    margin-right: 5px;
+    margin-right: 0.316rem;
     transition: background-color 1s;
 }
 
@@ -9,31 +9,31 @@
 
 
 .mon::before {
-    height: 40px;
+    height: 2.5rem;
 }
 
 .tue::before {
-    height: 80px;
+    height: 5rem;
 }
 
 .wed::before {
-    height: 130px;
+    height: 8.125rem;
     background-color: hsl(186, 34%, 60%);
     transition: background-color 0.15s;
 }
 
 .thu::before {
-    height: 70px;
+    height: 4.375rem;
 }
 
 .fri::before {
-    height: 55px;
+    height: 3.438rem;
 }
 
 .sat::before {
-    height: 100px;
+    height: 6.25rem;
 }
 
 .sun::before {
-    height: 60px;
+    height: 3.75rem;
 }
