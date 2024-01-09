@@ -1,0 +1,43 @@
+.mon,
+.tue,
+.wed,
+.thu,
+.fri,
+.sat {
+    margin-right: 10px;
+}
+
+.sun {
+    margin-right: 0;
+}
+
+
+
+.mon::before {
+    height: 40px;
+}
+
+.tue::before {
+    height: 80px;
+}
+
+.wed::before {
+    height: 130px;
+    background-color: hsl(186, 34%, 60%);
+}
+
+.thu::before {
+    height: 70px;
+}
+
+.fri::before {
+    height: 55px;
+}
+
+.sat::before {
+    height: 100px;
+}
+
+.sun::before {
+    height: 60px;
+}
