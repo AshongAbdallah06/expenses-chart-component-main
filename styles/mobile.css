@@ -1,11 +1,18 @@
-@media (max-width: 395px) {
-    header {
-        width: 12.5rem;
-        padding: 0.625rem 1.563rem;
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px; 
     }
 
-    .container {
-        width: 12.5rem;
+    header {
+        font-size: 0.875rem; 
+    }
+}
+
+
+@media (max-width: 395px) {
+    header {
+        width: 16rem;
+        padding: 0.625rem 1.563rem;
     }
 
     .heading {

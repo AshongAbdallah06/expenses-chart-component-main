@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    display: flex;
     font-family: 'DM Sans', sans-serif;
+    background-color: hsl(27, 66%, 92%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 main {
@@ -10,19 +22,14 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    flex: 1;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
     background-color: hsl(27, 66%, 92%);
     white-space: nowrap;
+    max-width: 800px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center the content horizontally */
 }
 
 header {
     background-color: hsl(10, 79%, 65%);
-    /* width: 27%; */
     margin-bottom: 1.25rem;
     padding: 0.625rem 1.563rem;
     color: white;
@@ -30,6 +37,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 100%;
 }
 
 .balance-container {
